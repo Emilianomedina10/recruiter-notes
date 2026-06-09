@@ -96,7 +96,6 @@ recruiter-notes/
 
 ---
 
-## 🌐 Deploy to Vercel
 
 ### Build
 
@@ -105,25 +104,14 @@ npm run build
 ```
 
 ### Deploy
-
-1. Push to GitHub
-2. Import repo into [Vercel](https://vercel.com)
-3. Add environment variables in **Project Settings → Environment Variables**:
-   - `VITE_SUPABASE_URL`
-   - `VITE_SUPABASE_ANON_KEY`
-4. Deploy (Vercel auto-detects Vite — no build config needed)
+https://recruiter-notes.vercel.app/
 
 ---
 
 ## 🤖 AI Tools Used
 
-Built entirely with **Claude (Sonnet 4)** via [claude.ai](https://claude.ai):
+Built with **Claude (Sonnet 4)** 
 - Schema design
-- Full application code generation
-- AI engine powering the Ask AI tab
+- Code generation
 
 ---
-
-## 📝 License
-
-MIT
