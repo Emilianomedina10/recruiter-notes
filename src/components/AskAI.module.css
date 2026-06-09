@@ -1,0 +1,59 @@
+.title { font-size: 18px; font-weight: 500; margin-bottom: 0.5rem; }
+
+.subtitle { font-size: 14px; color: #888; line-height: 1.6; margin-bottom: 1.25rem; }
+
+.field { margin-bottom: 12px; }
+
+.field label { display: block; font-size: 13px; color: #666; margin-bottom: 5px; }
+
+.btnRow { display: flex; justify-content: flex-end; margin-bottom: 1rem; }
+
+.btnPrimary {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 9px 18px;
+  background: #1a1a1a; color: #fff;
+  border: none; border-radius: 8px;
+  font-size: 14px; font-weight: 500; cursor: pointer;
+  transition: opacity 0.15s;
+}
+.btnPrimary:hover:not(:disabled) { opacity: 0.85; }
+.btnPrimary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.spinner {
+  display: inline-block; width: 13px; height: 13px;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.error { font-size: 13px; color: #c0392b; margin-bottom: 1rem; }
+
+.answerBox {
+  background: #f5f3ef;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.answerLabel {
+  font-size: 11px; font-weight: 500; text-transform: uppercase;
+  letter-spacing: 0.05em; color: #aaa; margin-bottom: 8px;
+}
+
+.answerText { font-size: 14px; line-height: 1.75; color: #1a1a1a; white-space: pre-wrap; }
+
+.suggestions { margin-top: 1.5rem; }
+
+.suggestLabel { font-size: 12px; color: #aaa; margin-bottom: 10px; }
+
+.suggestList { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.suggestBtn {
+  font-size: 12px; padding: 6px 12px;
+  background: none; color: #1a1a1a;
+  border: 0.5px solid #ccc; border-radius: 8px; cursor: pointer;
+  text-align: left; line-height: 1.4;
+}
+.suggestBtn:hover { background: #f0eeea; }

@@ -1,0 +1,42 @@
+.title { font-size: 18px; font-weight: 500; margin-bottom: 1.25rem; }
+
+.filterBar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1rem; }
+
+.filterSelect { width: auto; font-size: 13px; padding: 6px 10px; }
+
+.searchInput { flex: 1; min-width: 140px; font-size: 13px; padding: 6px 10px; }
+
+.count { font-size: 13px; color: #888; margin-bottom: 1rem; }
+
+.empty { text-align: center; padding: 3rem 1rem; color: #888; font-size: 14px; }
+
+.card {
+  background: #fff;
+  border: 0.5px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 10px;
+}
+
+.cardHeader { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+
+.noteText { font-size: 14px; line-height: 1.65; color: #1a1a1a; flex: 1; }
+
+.delBtn {
+  background: none; border: none; cursor: pointer;
+  color: #bbb; padding: 2px 4px; border-radius: 4px; font-size: 15px; line-height: 1;
+  flex-shrink: 0;
+}
+.delBtn:hover { color: #c0392b; }
+
+.badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+
+.badge { display: inline-block; font-size: 11px; padding: 3px 9px; border-radius: 20px; font-weight: 500; }
+
+.badgeType { background: #e8f0fe; color: #1a56db; }
+.badgeSource { background: #f0eeea; color: #555; }
+.badgeWP { background: #e8f7ee; color: #1a7a45; }
+.badgePos { background: #fff7e6; color: #a05c00; }
+.badgeTag { background: #f0eeea; color: #666; }
+
+.meta { font-size: 12px; color: #aaa; }
